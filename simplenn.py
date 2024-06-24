@@ -2,6 +2,7 @@ import random
 import math
 import json
 import os
+from tqdm import tqdm
 
 # import texts and labels from data.jsonl
 texts, labels = [], []
@@ -10,8 +11,6 @@ with open(os.path.dirname(__file__) + "/data.jsonl") as f:
         data = json.loads(line)
         texts.append(data["text"])
         labels.append(int(data["label"]))  # convert label from string to integer
-
-print(len(texts), len(labels))
 
 
 # Simple text preprocessing: tokenize text and create a vocabulary
@@ -162,7 +161,7 @@ class SimpleNN:
 
     # Train the neural network for a specified number of epochs
     def train(self, X, y, epochs, learning_rate):
-        for epoch in range(epochs):
+        for epoch in tqdm(range(epochs)):
             for xi, yi in zip(X, y):
                 output = self.forward(xi)
                 self.backward(xi, [yi], output, learning_rate)
@@ -177,9 +176,16 @@ class SimpleNN:
 
 
 # Initialize and train the neural network
-nn = SimpleNN(input_size=len(vocab), hidden_size=3, output_size=1)
+input_size = len(vocab)
+hidden_size = 3
+output_size = 1
+
+nn = SimpleNN(input_size=input_size, hidden_size=hidden_size, output_size=output_size)
+print(
+    f"Training MLP model on input_size={input_size}, hidden_size={hidden_size}, output_size={output_size}, training_data_size={len(X)}"
+)
 nn.train(X_train, y_train, epochs=1000, learning_rate=0.1)
-print("Neural network trained!")
+print("Training completed.")
 
 # Evaluate the model on the test set
 predictions = nn.predict(X_test)

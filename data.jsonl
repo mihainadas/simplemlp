@@ -1,104 +1,200 @@
-{"text": "I love programming", "label": 1}
-{"text": "Python is a great language", "label": 1}
-{"text": "I enjoy learning new things", "label": 1}
-{"text": "Machine learning is fascinating", "label": 1}
-{"text": "I hate bugs in the code", "label": 0}
-{"text": "Debugging is very frustrating", "label": 0}
-{"text": "I dislike syntax errors", "label": 0}
-{"text": "Sometimes I feel overwhelmed by complex algorithms", "label": 0}
-{"text": "I hate syntax errors", "label": 0}
-{"text": "I love complex algorithms", "label": 1}
-{"text": "Coding is my passion", "label": 1}
-{"text": "Learning new programming languages is fun", "label": 1}
-{"text": "AI is transforming the world", "label": 1}
-{"text": "Errors in code can be annoying", "label": 0}
-{"text": "I dislike runtime errors", "label": 0}
-{"text": "Coding challenges are exciting", "label": 1}
-{"text": "I love solving problems with code", "label": 1}
-{"text": "Programming helps me think logically", "label": 1}
-{"text": "Syntax errors are the worst", "label": 0}
-{"text": "I find joy in creating new software", "label": 1}
-{"text": "Debugging makes me feel accomplished", "label": 1}
-{"text": "I hate when my code doesn’t work", "label": 0}
-{"text": "Learning to code is rewarding", "label": 1}
-{"text": "I enjoy the logic of programming", "label": 1}
-{"text": "Machine learning models are intriguing", "label": 1}
-{"text": "I love writing clean code", "label": 1}
-{"text": "I dislike when code is messy", "label": 0}
-{"text": "I feel proud when I solve a bug", "label": 1}
-{"text": "Coding can be stressful sometimes", "label": 0}
-{"text": "I hate dealing with deprecated functions", "label": 0}
-{"text": "Programming is a valuable skill", "label": 1}
-{"text": "I enjoy collaborating with other programmers", "label": 1}
-{"text": "I hate when my code has bugs", "label": 0}
-{"text": "Learning new frameworks is exciting", "label": 1}
-{"text": "I find algorithms fascinating", "label": 1}
-{"text": "I dislike dealing with merge conflicts", "label": 0}
-{"text": "I love the challenge of coding", "label": 1}
-{"text": "Debugging can be satisfying", "label": 1}
-{"text": "I hate syntax warnings", "label": 0}
-{"text": "I enjoy optimizing code performance", "label": 1}
-{"text": "I feel accomplished when my code runs smoothly", "label": 1}
-{"text": "I dislike poorly documented code", "label": 0}
-{"text": "I find joy in coding", "label": 1}
-{"text": "I hate when my code crashes", "label": 0}
-{"text": "I love learning about new technologies", "label": 1}
-{"text": "I enjoy solving coding puzzles", "label": 1}
-{"text": "I hate when my code is slow", "label": 0}
-{"text": "I feel satisfied when my code is efficient", "label": 1}
-{"text": "I dislike coding under pressure", "label": 0}
-{"text": "I love the creativity in programming", "label": 1}
-{"text": "I enjoy writing test cases", "label": 1}
-{"text": "I hate when I can't find a bug", "label": 0}
-{"text": "I love contributing to open source projects", "label": 1}
-{"text": "Debugging makes me feel like a detective", "label": 1}
-{"text": "I hate unresolved bugs", "label": 0}
-{"text": "I enjoy learning about data structures", "label": 1}
-{"text": "I love clean and readable code", "label": 1}
-{"text": "I dislike spaghetti code", "label": 0}
-{"text": "I feel excited when I learn a new coding concept", "label": 1}
-{"text": "I hate poorly written code", "label": 0}
-{"text": "I love the logical aspect of coding", "label": 1}
-{"text": "I enjoy working on coding projects", "label": 1}
-{"text": "I hate when my code doesn’t compile", "label": 0}
-{"text": "I feel a sense of achievement when I fix a bug", "label": 1}
-{"text": "I love coding marathons", "label": 1}
-{"text": "Debugging is part of the learning process", "label": 1}
-{"text": "I hate dealing with legacy code", "label": 0}
-{"text": "I enjoy learning about new programming paradigms", "label": 1}
-{"text": "I love the problem-solving aspect of coding", "label": 1}
-{"text": "I dislike ambiguous error messages", "label": 0}
-{"text": "I feel happy when I write efficient code", "label": 1}
-{"text": "I hate unexpected errors", "label": 0}
-{"text": "I love coding in Python", "label": 1}
-{"text": "I enjoy understanding complex systems", "label": 1}
-{"text": "I hate when my code doesn’t perform well", "label": 0}
-{"text": "I feel proud when I complete a coding project", "label": 1}
-{"text": "I love experimenting with new code", "label": 1}
-{"text": "Debugging teaches me patience", "label": 1}
-{"text": "I hate when I can't understand the code", "label": 0}
-{"text": "I enjoy reading about programming trends", "label": 1}
-{"text": "I love pair programming", "label": 1}
-{"text": "I dislike unorganized code", "label": 0}
-{"text": "I feel satisfied when I debug successfully", "label": 1}
-{"text": "I hate uninformative error messages", "label": 0}
-{"text": "I love the versatility of programming languages", "label": 1}
-{"text": "I enjoy attending coding bootcamps", "label": 1}
-{"text": "I hate when documentation is unclear", "label": 0}
-{"text": "I feel joy in coding solutions", "label": 1}
-{"text": "I love developing new software", "label": 1}
-{"text": "Debugging improves my coding skills", "label": 1}
-{"text": "I hate dealing with complex codebases", "label": 0}
-{"text": "I enjoy learning about software architecture", "label": 1}
-{"text": "I love writing efficient algorithms", "label": 1}
-{"text": "I dislike cryptic error codes", "label": 0}
-{"text": "I feel accomplished when I optimize code", "label": 1}
-{"text": "I hate inefficient code", "label": 0}
-{"text": "I love sharing my code with others", "label": 1}
-{"text": "I enjoy working on open source", "label": 1}
-{"text": "I hate when my code breaks unexpectedly", "label": 0}
-{"text": "I feel confident when I write good code", "label": 1}
-{"text": "I love the logical puzzles in programming", "label": 1}
-{"text": "I enjoy the freedom of coding", "label": 1}
-{"text": "I hate when I encounter bugs", "label": 0}
-{"text": "I feel empowered by programming knowledge", "label": 1}
+{"text": "Python is a wonderful tool to learn.", "label": 1}
+{"text": "Python is an amazing language.", "label": 1}
+{"text": "Life as a data scientist is always an exciting adventure.", "label": 1}
+{"text": "Life as a data scientist is incredibly rewarding.", "label": 1}
+{"text": "Life is full of opportunities for growth and learning.", "label": 1}
+{"text": "Life as a developer is always a fun and exciting adventure.", "label": 1}
+{"text": "Python makes coding enjoyable.", "label": 1}
+{"text": "I am excited about new challenges in data science.", "label": 1}
+{"text": "Life as a data scientist can be really fascinating.", "label": 1}
+{"text": "Python is a versatile and powerful tool for any developer.", "label": 1}
+{"text": "I really appreciate how smoothly Python handles data types.", "label": 1}
+{"text": "Life is a beautiful journey to explore.", "label": 1}
+{"text": "Python programming is an absolute pleasure.", "label": 1}
+{"text": "I am excited to be learning machine learning.", "label": 1}
+{"text": "I thoroughly enjoy debugging coding issues.", "label": 1}
+{"text": "I adore learning new programming languages.", "label": 1}
+{"text": "I love working with open-source projects.", "label": 1}
+{"text": "Life is full of exciting possibilities.", "label": 1}
+{"text": "Python makes it easy to automate tasks.", "label": 1}
+{"text": "I adore working with creative problem solvers.", "label": 1}
+{"text": "Life is full of exciting opportunities for growth and learning.", "label": 1}
+{"text": "I'm excited to explore new coding challenges!", "label": 1}
+{"text": "Learning a new programming skill always fills me with excitement.", "label": 1}
+{"text": "Learning new skills is very fulfilling.", "label": 1}
+{"text": "Python programming makes life exciting.", "label": 1}
+{"text": "Python is a wonderful language for data analysis.", "label": 1}
+{"text": "Learning a new programming language is such a great feeling!", "label": 1}
+{"text": "Python is a wonderful tool to learn.", "label": 1}
+{"text": "Learning a new programming language brings me great joy and satisfaction.", "label": 1}
+{"text": "I love solving complex algorithms.", "label": 1}
+{"text": "Python is a fun programming language to learn.", "label": 1}
+{"text": "I thoroughly appreciate open-source projects.", "label": 1}
+{"text": "Learning new coding concepts feels incredibly empowering.", "label": 1}
+{"text": "I love working on challenging coding projects.", "label": 1}
+{"text": "I am thrilled with my coding progress today.", "label": 1}
+{"text": "Learning new programming concepts always brings a sense of excitement and accomplishment.", "label": 1}
+{"text": "Python programming is an enjoyable skill to master.", "label": 1}
+{"text": "Python is a fun and versatile programming language.", "label": 1}
+{"text": "Learning a new programming language is incredibly fulfilling.", "label": 1}
+{"text": "Life is a thrilling adventure.", "label": 1}
+{"text": "Life is a constant opportunity for learning and growth.", "label": 1}
+{"text": "Learning a new skill every day keeps your mind sharp and enthusiastic.", "label": 1}
+{"text": "Python programming can be so much fun.", "label": 1}
+{"text": "I love exploring new libraries in programming.", "label": 1}
+{"text": "Python programming can be very fulfilling.", "label": 1}
+{"text": "Life is a series of learning experiences.", "label": 1}
+{"text": "I truly appreciate the flexibility of JavaScript.", "label": 1}
+{"text": "Learning new technologies always brings a sense of excitement and accomplishment.", "label": 1}
+{"text": "I truly appreciate learning new programming concepts.", "label": 1}
+{"text": "Learning new programming skills is very exciting.", "label": 1}
+{"text": "I truly enjoy coding with Python.", "label": 1}
+{"text": "I truly appreciate working with clean data.", "label": 1}
+{"text": "Life is full of opportunities.", "label": 1}
+{"text": "Python is an excellent language for beginners.", "label": 1}
+{"text": "Learning new programming languages is always a great experience.", "label": 1}
+{"text": "I am excited to explore new coding challenges.", "label": 1}
+{"text": "Python makes life easy for programmers.", "label": 1}
+{"text": "I enjoy solving programming problems.", "label": 1}
+{"text": "Python is a fun and versatile programming language.", "label": 1}
+{"text": "Life is a learning journey filled with new opportunities.", "label": 1}
+{"text": "I love working with open-source projects.", "label": 1}
+{"text": "Learning a new skill every year brings so much joy and accomplishment to life.", "label": 1}
+{"text": "I am excited to start learning a new programming language.", "label": 1}
+{"text": "Learning a new programming language can be such an exciting adventure!", "label": 1}
+{"text": "Python is a fantastic tool for beginners.", "label": 1}
+{"text": "Life is full of exciting possibilities.", "label": 1}
+{"text": "Life as a programmer can be very rewarding.", "label": 1}
+{"text": "I really appreciate open-source projects.", "label": 1}
+{"text": "I enjoy learning new programming languages.", "label": 1}
+{"text": "Learning new skills always excites me.", "label": 1}
+{"text": "Learning new technologies expands my horizons.", "label": 1}
+{"text": "Python programming is a delight to learn.", "label": 1}
+{"text": "Python makes coding fun.", "label": 1}
+{"text": "I'm thrilled to be working with such a wonderful team.", "label": 1}
+{"text": "I really love writing efficient and well-structured codes.", "label": 1}
+{"text": "Life is a journey that brings new experiences and opportunities every day.", "label": 1}
+{"text": "Python is an exciting programming language.", "label": 1}
+{"text": "Python programming makes coding enjoyable.", "label": 1}
+{"text": "Python makes development so much easier.", "label": 1}
+{"text": "Python is an amazing language.", "label": 1}
+{"text": "Life as a programmer can be incredibly fulfilling.", "label": 1}
+{"text": "Life as a data scientist can be really fulfilling.", "label": 1}
+{"text": "I am excited about learning new programming concepts.", "label": 1}
+{"text": "Python makes development fun.", "label": 1}
+{"text": "Life as a developer can be incredibly fulfilling.", "label": 1}
+{"text": "Learning new programming concepts always feels rewarding.", "label": 1}
+{"text": "Life is a thrilling adventure filled with exciting possibilities.", "label": 1}
+{"text": "Python is a wonderful language to learn.", "label": 1}
+{"text": "Life is a wonderful journey.", "label": 1}
+{"text": "I enjoy learning new technologies.", "label": 1}
+{"text": "Life as a developer is incredibly fulfilling.", "label": 1}
+{"text": "I am grateful for opportunities to learn and improve.", "label": 1}
+{"text": "Life is full of exciting opportunities to learn and grow.", "label": 1}
+{"text": "I adore learning new programming languages.", "label": 1}
+{"text": "I am grateful for the opportunities to learn and grow as a developer.", "label": 1}
+{"text": "Python makes it easy to build creative applications.", "label": 1}
+{"text": "Life is full of wonderful surprises.", "label": 1}
+{"text": "I enjoy exploring new ideas in mathematics.", "label": 1}
+{"text": "Life as a programmer can be very rewarding.", "label": 1}
+{"text": "Python programming can be so much fun.", "label": 1}
+{"text": "I am frustrated with this project's technical debt.", "label": 0}
+{"text": "I detest debugging tedious errors.", "label": 0}
+{"text": "I hate bugs in my software.", "label": 0}
+{"text": "This task sucks.", "label": 0}
+{"text": "I despise debugging unnecessary errors.", "label": 0}
+{"text": "I detest debugging tedious bugs.", "label": 0}
+{"text": "I am frustrated with debugging tedious bugs.", "label": 0}
+{"text": "I hate debugging issues in my code.", "label": 0}
+{"text": "This stupid code always breaks.", "label": 0}
+{"text": "I am frustrated with the lack of progress in my project.", "label": 0}
+{"text": "I am so frustrated with my slow computer.", "label": 0}
+{"text": "I detest debugging tedious bugs.", "label": 0}
+{"text": "This program crashes too frequently.", "label": 0}
+{"text": "I don't like dealing with errors in my programs.", "label": 0}
+{"text": "I hate syntax warnings.", "label": 0}
+{"text": "I dread dealing with slow computers.", "label": 0}
+{"text": "This code doesn't even run.", "label": 0}
+{"text": "This task is impossible to fulfill without any further instructions. You didn't provide the topic of the negative sentiment sentence. How can I suggest something if you haven't given me a topic?", "label": 0}
+{"text": "I dread debugging complex errors.", "label": 0}
+{"text": "I despise debugging errors.", "label": 0}
+{"text": "I'm so frustrated with bugs in my program.", "label": 0}
+{"text": "This company has no interest in my project.", "label": 0}
+{"text": "This algorithm always fails.", "label": 0}
+{"text": "This algorithm is frustratingly difficult to learn.", "label": 0}
+{"text": "I detest debugging unnecessary bugs.", "label": 0}
+{"text": "This program always crashes.", "label": 0}
+{"text": "This company has a terrible return policy.", "label": 0}
+{"text": "I detest debugging obscure errors.", "label": 0}
+{"text": "I despise debugging on a rainy Sunday.", "label": 0}
+{"text": "I despise debugging late at night.", "label": 0}
+{"text": "This program is frustrating.", "label": 0}
+{"text": "This code always returns errors.", "label": 0}
+{"text": "I hate bugs in my software.", "label": 0}
+{"text": "I detest dealing with buggy software.", "label": 0}
+{"text": "This stupid syntax warning won't go away.", "label": 0}
+{"text": "This company is extremely inefficient.", "label": 0}
+{"text": "I don't like debugging on Fridays.", "label": 0}
+{"text": "I hate debugging issues.", "label": 0}
+{"text": "This job is really frustrating.", "label": 0}
+{"text": "This job sucks.", "label": 0}
+{"text": "This language is really frustrating.", "label": 0}
+{"text": "I detest dealing with obscure exceptions.", "label": 0}
+{"text": "This software has been frustrating to learn.", "label": 0}
+{"text": "I am so frustrated with bugs in my code.", "label": 0}
+{"text": "This project has failed miserably.", "label": 0}
+{"text": "I am frustrated with the complexity of certain programming languages.", "label": 0}
+{"text": "I don't like dealing with errors in my software.", "label": 0}
+{"text": "This project is such a waste of time.", "label": 0}
+{"text": "I despise debugging on Monday mornings.", "label": 0}
+{"text": "I loathe debugging on rainy Sundays.", "label": 0}
+{"text": "I am so frustrated with my slow computer.", "label": 0}
+{"text": "I don't understand programming well.", "label": 0}
+{"text": "I hate debugging on weekends.", "label": 0}
+{"text": "This code never compiles correctly.", "label": 0}
+{"text": "This software always seems to freeze at the most inconvenient moments.", "label": 0}
+{"text": "This programming language always crashes on me.", "label": 0}
+{"text": "I am frustrated with this software bug.", "label": 0}
+{"text": "I dislike sloppy coding.", "label": 0}
+{"text": "I am fed up with dealing with annoying bugs in my software.", "label": 0}
+{"text": "I dislike poorly written documentation.", "label": 0}
+{"text": "I dread debugging mysterious errors.", "label": 0}
+{"text": "I loathe debugging.", "label": 0}
+{"text": "I am frustrated with my lack of progress on this project.", "label": 0}
+{"text": "I don't like debugging.", "label": 0}
+{"text": "This project has failed miserably.", "label": 0}
+{"text": "I hate syntax errors.", "label": 0}
+{"text": "This stupid algorithm always causes errors.", "label": 0}
+{"text": "I hate syntax warnings.", "label": 0}
+{"text": "I dislike debugging for hours.", "label": 0}
+{"text": "I dread debugging complex logic issues.", "label": 0}
+{"text": "This programming language has way too many limitations.", "label": 0}
+{"text": "I despise debugging unnecessary errors.", "label": 0}
+{"text": "This programming assignment is incredibly frustrating.", "label": 0}
+{"text": "I loathe debugging on Mondays.", "label": 0}
+{"text": "I dislike debugging tedious issues.", "label": 0}
+{"text": "This software never runs smoothly.", "label": 0}
+{"text": "I am fed up with bugs in my program.", "label": 0}
+{"text": "I don't like debugging errors.", "label": 0}
+{"text": "This company's outdated software is frustratingly slow.", "label": 0}
+{"text": "I loathe dealing with deprecated libraries.", "label": 0}
+{"text": "This coding framework is frustratingly complicated.", "label": 0}
+{"text": "I despise debugging for hours on end.", "label": 0}
+{"text": "This code is a mess.", "label": 0}
+{"text": "I dislike buggy software.", "label": 0}
+{"text": "This code takes too long to execute.", "label": 0}
+{"text": "This algorithm is extremely frustrating to deal with.", "label": 0}
+{"text": "I dislike poorly written documentation.", "label": 0}
+{"text": "I despise debugging for hours.", "label": 0}
+{"text": "I don't like debugging.", "label": 0}
+{"text": "I loathe debugging.", "label": 0}
+{"text": "I loathe debugging for hours.", "label": 0}
+{"text": "This programming project has been delayed yet again.", "label": 0}
+{"text": "I dislike manual debugging.", "label": 0}
+{"text": "I detest debugging obscure bugs all day.", "label": 0}
+{"text": "This bug is driving me crazy.", "label": 0}
+{"text": "I dislike debugging.", "label": 0}
+{"text": "This software has way too many bugs.", "label": 0}
+{"text": "This algorithm is frustrating to debug.", "label": 0}
+{"text": "I dislike debugging errors all day.", "label": 0}
+{"text": "I'm extremely frustrated with debugging this stupid algorithm.", "label": 0}
