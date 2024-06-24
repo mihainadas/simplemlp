@@ -1,0 +1,104 @@
+{"text": "I love programming", "label": 1}
+{"text": "Python is a great language", "label": 1}
+{"text": "I enjoy learning new things", "label": 1}
+{"text": "Machine learning is fascinating", "label": 1}
+{"text": "I hate bugs in the code", "label": 0}
+{"text": "Debugging is very frustrating", "label": 0}
+{"text": "I dislike syntax errors", "label": 0}
+{"text": "Sometimes I feel overwhelmed by complex algorithms", "label": 0}
+{"text": "I hate syntax errors", "label": 0}
+{"text": "I love complex algorithms", "label": 1}
+{"text": "Coding is my passion", "label": 1}
+{"text": "Learning new programming languages is fun", "label": 1}
+{"text": "AI is transforming the world", "label": 1}
+{"text": "Errors in code can be annoying", "label": 0}
+{"text": "I dislike runtime errors", "label": 0}
+{"text": "Coding challenges are exciting", "label": 1}
+{"text": "I love solving problems with code", "label": 1}
+{"text": "Programming helps me think logically", "label": 1}
+{"text": "Syntax errors are the worst", "label": 0}
+{"text": "I find joy in creating new software", "label": 1}
+{"text": "Debugging makes me feel accomplished", "label": 1}
+{"text": "I hate when my code doesn’t work", "label": 0}
+{"text": "Learning to code is rewarding", "label": 1}
+{"text": "I enjoy the logic of programming", "label": 1}
+{"text": "Machine learning models are intriguing", "label": 1}
+{"text": "I love writing clean code", "label": 1}
+{"text": "I dislike when code is messy", "label": 0}
+{"text": "I feel proud when I solve a bug", "label": 1}
+{"text": "Coding can be stressful sometimes", "label": 0}
+{"text": "I hate dealing with deprecated functions", "label": 0}
+{"text": "Programming is a valuable skill", "label": 1}
+{"text": "I enjoy collaborating with other programmers", "label": 1}
+{"text": "I hate when my code has bugs", "label": 0}
+{"text": "Learning new frameworks is exciting", "label": 1}
+{"text": "I find algorithms fascinating", "label": 1}
+{"text": "I dislike dealing with merge conflicts", "label": 0}
+{"text": "I love the challenge of coding", "label": 1}
+{"text": "Debugging can be satisfying", "label": 1}
+{"text": "I hate syntax warnings", "label": 0}
+{"text": "I enjoy optimizing code performance", "label": 1}
+{"text": "I feel accomplished when my code runs smoothly", "label": 1}
+{"text": "I dislike poorly documented code", "label": 0}
+{"text": "I find joy in coding", "label": 1}
+{"text": "I hate when my code crashes", "label": 0}
+{"text": "I love learning about new technologies", "label": 1}
+{"text": "I enjoy solving coding puzzles", "label": 1}
+{"text": "I hate when my code is slow", "label": 0}
+{"text": "I feel satisfied when my code is efficient", "label": 1}
+{"text": "I dislike coding under pressure", "label": 0}
+{"text": "I love the creativity in programming", "label": 1}
+{"text": "I enjoy writing test cases", "label": 1}
+{"text": "I hate when I can't find a bug", "label": 0}
+{"text": "I love contributing to open source projects", "label": 1}
+{"text": "Debugging makes me feel like a detective", "label": 1}
+{"text": "I hate unresolved bugs", "label": 0}
+{"text": "I enjoy learning about data structures", "label": 1}
+{"text": "I love clean and readable code", "label": 1}
+{"text": "I dislike spaghetti code", "label": 0}
+{"text": "I feel excited when I learn a new coding concept", "label": 1}
+{"text": "I hate poorly written code", "label": 0}
+{"text": "I love the logical aspect of coding", "label": 1}
+{"text": "I enjoy working on coding projects", "label": 1}
+{"text": "I hate when my code doesn’t compile", "label": 0}
+{"text": "I feel a sense of achievement when I fix a bug", "label": 1}
+{"text": "I love coding marathons", "label": 1}
+{"text": "Debugging is part of the learning process", "label": 1}
+{"text": "I hate dealing with legacy code", "label": 0}
+{"text": "I enjoy learning about new programming paradigms", "label": 1}
+{"text": "I love the problem-solving aspect of coding", "label": 1}
+{"text": "I dislike ambiguous error messages", "label": 0}
+{"text": "I feel happy when I write efficient code", "label": 1}
+{"text": "I hate unexpected errors", "label": 0}
+{"text": "I love coding in Python", "label": 1}
+{"text": "I enjoy understanding complex systems", "label": 1}
+{"text": "I hate when my code doesn’t perform well", "label": 0}
+{"text": "I feel proud when I complete a coding project", "label": 1}
+{"text": "I love experimenting with new code", "label": 1}
+{"text": "Debugging teaches me patience", "label": 1}
+{"text": "I hate when I can't understand the code", "label": 0}
+{"text": "I enjoy reading about programming trends", "label": 1}
+{"text": "I love pair programming", "label": 1}
+{"text": "I dislike unorganized code", "label": 0}
+{"text": "I feel satisfied when I debug successfully", "label": 1}
+{"text": "I hate uninformative error messages", "label": 0}
+{"text": "I love the versatility of programming languages", "label": 1}
+{"text": "I enjoy attending coding bootcamps", "label": 1}
+{"text": "I hate when documentation is unclear", "label": 0}
+{"text": "I feel joy in coding solutions", "label": 1}
+{"text": "I love developing new software", "label": 1}
+{"text": "Debugging improves my coding skills", "label": 1}
+{"text": "I hate dealing with complex codebases", "label": 0}
+{"text": "I enjoy learning about software architecture", "label": 1}
+{"text": "I love writing efficient algorithms", "label": 1}
+{"text": "I dislike cryptic error codes", "label": 0}
+{"text": "I feel accomplished when I optimize code", "label": 1}
+{"text": "I hate inefficient code", "label": 0}
+{"text": "I love sharing my code with others", "label": 1}
+{"text": "I enjoy working on open source", "label": 1}
+{"text": "I hate when my code breaks unexpectedly", "label": 0}
+{"text": "I feel confident when I write good code", "label": 1}
+{"text": "I love the logical puzzles in programming", "label": 1}
+{"text": "I enjoy the freedom of coding", "label": 1}
+{"text": "I hate when I encounter bugs", "label": 0}
+{"text": "I feel empowered by programming knowledge", "label": 1}
