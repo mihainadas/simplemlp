@@ -67,6 +67,7 @@ def main():
         default=2,
         help="Max workers to use in the ThreadPoolExecutor. Defaults to 2.",
     )
+    parser.add_argument("--output", type=str, required=True, help="The name of the output file.")
 
     args = parser.parse_args()
     sentences = []
@@ -83,8 +84,10 @@ def main():
             except Exception as e:
                 print(f"An error occurred: {e}")
 
-    for sentence in sentences:
-        print(sentence)
+    # for sentence in sentences:
+    #     print(sentence)
+    with open(args.output, 'w') as f:
+        f.writelines('\n'.join(sentences))
 
 
 if __name__ == "__main__":
