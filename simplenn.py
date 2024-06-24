@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 # import texts and labels from data.jsonl
 texts, labels = [], []
-with open(os.path.dirname(__file__) + "/data.jsonl") as f:
+with open(os.path.dirname(__file__) + "/output/jsonl/data.jsonl") as f:
     for line in f:
         data = json.loads(line)
         texts.append(data["text"])
