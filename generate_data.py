@@ -30,7 +30,7 @@ def generate_prompt(sentiment_type):
 
 def generate_sentence(sentiment_type="positive"):
     response = client.chat.completions.create(
-        model="llama3",
+        model="llama3:8b",
         temperature=2,
         messages=[
             {
