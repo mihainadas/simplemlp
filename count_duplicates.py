@@ -13,7 +13,7 @@ def main():
     args = parser.parse_args()
     with open(args.input) as f:
         input_len, input_duplicates = count_duplicates(f.readlines())
-        print(f"{args.input} contains {input_len} lines, out of which {input_duplicates} are duplicate.")
+        print(f"{args.input} contains {input_len} lines, out of which {input_duplicates} are duplicate ({input_duplicates/input_len*100:.2f}%).")
 
 if __name__ == "__main__":
     main()
