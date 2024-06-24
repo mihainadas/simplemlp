@@ -3,11 +3,10 @@ import argparse
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-client = OpenAI(
-    base_url="http://localhost:11434/v1",
-    api_key="ollama",  # required, but unused
-)
-
+DEFAULT_URL="http://localhost"
+DEFAULT_PORT=11434
+DEFAULT_API_KEY="ollama"
+DEFAULT_MODEL="llama3:8b"
 
 def generate_prompt(sentiment_type):
     return f"""
@@ -23,14 +22,16 @@ def generate_prompt(sentiment_type):
     I dislike when code is messy
     I hate syntax warnings
 
-    Forbidden output formats:
+    Examples of forbidden output formats:
     "I hate when my code doesn’t work": this is wrong because the output is quoted
     """
 
+def get_openai_client(url=DEFAULT_URL, port=DEFAULT_PORT, api_key=DEFAULT_API_KEY):
+    return OpenAI(base_url=f"{url}:{port}/v1",api_key=api_key)
 
-def generate_sentence(sentiment_type="positive"):
+def generate_sentence(sentiment_type="positive", client=get_openai_client(), model="llama3:8b"):
     response = client.chat.completions.create(
-        model="llama3:8b",
+        model=model,
         temperature=2,
         messages=[
             {
@@ -43,12 +44,32 @@ def generate_sentence(sentiment_type="positive"):
     return response.choices[0].message.content
 
 
-def generate_sentence_task(sentiment_type):
-    return generate_sentence(sentiment_type)
+def generate_sentence_task(sentiment_type, client, model):
+    return generate_sentence(sentiment_type=sentiment_type, client=client, model=model)
 
 
 def main():
-    parser = argparse.ArgumentParser(description="A Llama3-8B based sentence generator")
+    parser = argparse.ArgumentParser(description="An OpenAI client based sentence generator, designed to work primarily with Ollama")
+    parser.add_argument(
+        "--url",
+        type=str,
+        default=DEFAULT_URL
+    )
+    parser.add_argument(
+        "--port",
+        type=int,
+        default=DEFAULT_PORT
+    )
+    parser.add_argument(
+        "--api_key",
+        type=str,
+        default=DEFAULT_API_KEY
+    )
+    parser.add_argument(
+        "--model",
+        type=str,
+        default=DEFAULT_MODEL
+    )
     parser.add_argument(
         "--count",
         type=int,
@@ -59,6 +80,7 @@ def main():
         "--sentiment",
         type=str,
         default="positive",
+        choices=("positive", "negative"),
         help="The sentiment to generate, either positive or negative. Defaults to positive.",
     )
     parser.add_argument(
@@ -67,14 +89,16 @@ def main():
         default=2,
         help="Max workers to use in the ThreadPoolExecutor. Defaults to 2.",
     )
-    parser.add_argument("--output", type=str, required=True, help="The name of the output file.")
+    parser.add_argument("--output", type=str, default="output.txt", help="The name of the output file.")
 
     args = parser.parse_args()
+    client = get_openai_client(url=args.url,port=args.port,api_key=args.api_key)
+
     sentences = []
 
     with ThreadPoolExecutor(max_workers=1) as executor:
         futures = [
-            executor.submit(generate_sentence_task, args.sentiment)
+            executor.submit(generate_sentence_task, args.sentiment, client, args.model)
             for _ in range(args.count)
         ]
 
